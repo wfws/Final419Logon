@@ -11,7 +11,7 @@ application = webapp2.WSGIApplication([
 	(r'/edit_business', 'edit_business.EditPage'), 
 	(r'/', 'index.MainPage'), 
 	(r'/index', 'index.MainPage'),
-	(r'/logout', 'logout.MainPage'),
+	(r'/logout', 'index.LogoutHandler'),
 	(r'/add_new', 'add_new.MainPage'),
 	(r'/view', 'view.MainPage'), 
 	(r'/add_business', 'add_business.MainPage'),
